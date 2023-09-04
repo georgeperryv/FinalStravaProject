@@ -1,44 +1,44 @@
-import { FunctionComponent, useState, useRef, useCallback } from "react";
-import ExpandedMenuComponent from "/";
-import PortalPopup from "../components/PortalPopup";
-import Navigation1 from "../components/Navigation1";
-import FilterDropdownComponent from "../components/FilterDropdownComponent";
-import styles from "./InvalidSavedWorkoutPage.module.css";
+import { FunctionComponent, useState, useRef, useCallback } from 'react'
+import ExpandedMenuComponent from '../components/ExpandedMenuComponent'
+import PortalPopup from '../components/PortalPopup'
+import Navigation1 from '../components/Navigation1'
+import FilterDropdownComponent from '../components/FilterDropdownComponent'
+import styles from './InvalidSavedWorkoutPage.module.css'
 const InvalidSavedWorkoutPage: FunctionComponent = () => {
-  const navLinksContainer4Ref = useRef<HTMLDivElement>(null);
+  const navLinksContainer4Ref = useRef<HTMLDivElement>(null)
   const [isExpandedMenuComponentPopupOpen, setExpandedMenuComponentPopupOpen] =
-    useState(false);
-  const menuContainerRef = useRef<HTMLDivElement>(null);
-  const [isNavigationPopupOpen, setNavigationPopupOpen] = useState(false);
-  const filterButtonContainerRef = useRef<HTMLDivElement>(null);
+    useState(false)
+  const menuContainerRef = useRef<HTMLDivElement>(null)
+  const [isNavigationPopupOpen, setNavigationPopupOpen] = useState(false)
+  const filterButtonContainerRef = useRef<HTMLDivElement>(null)
   const [
     isFilterDropdownComponentPopupOpen,
-    setFilterDropdownComponentPopupOpen,
-  ] = useState(false);
+    setFilterDropdownComponentPopupOpen
+  ] = useState(false)
 
   const openExpandedMenuComponentPopup = useCallback(() => {
-    setExpandedMenuComponentPopupOpen(true);
-  }, []);
+    setExpandedMenuComponentPopupOpen(true)
+  }, [])
 
   const closeExpandedMenuComponentPopup = useCallback(() => {
-    setExpandedMenuComponentPopupOpen(false);
-  }, []);
+    setExpandedMenuComponentPopupOpen(false)
+  }, [])
 
   const openNavigationPopup = useCallback(() => {
-    setNavigationPopupOpen(true);
-  }, []);
+    setNavigationPopupOpen(true)
+  }, [])
 
   const closeNavigationPopup = useCallback(() => {
-    setNavigationPopupOpen(false);
-  }, []);
+    setNavigationPopupOpen(false)
+  }, [])
 
   const openFilterDropdownComponentPopup = useCallback(() => {
-    setFilterDropdownComponentPopupOpen(true);
-  }, []);
+    setFilterDropdownComponentPopupOpen(true)
+  }, [])
 
   const closeFilterDropdownComponentPopup = useCallback(() => {
-    setFilterDropdownComponentPopupOpen(false);
-  }, []);
+    setFilterDropdownComponentPopupOpen(false)
+  }, [])
 
   return (
     <>
@@ -48,11 +48,11 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
             <button className={styles.logoandsearch}>
               <img
                 className={styles.stravaLogoIcon}
-                alt=""
-                src="/stravalogo7.svg"
+                alt=''
+                src='/stravalogo7.svg'
               />
               <div className={styles.searchiconwrapper}>
-                <img className={styles.searchIcon} alt="" src="/search.svg" />
+                <img className={styles.searchIcon} alt='' src='/search.svg' />
               </div>
             </button>
             <div className={styles.navlinks}>
@@ -60,7 +60,7 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 <div className={styles.pagetab}>
                   <div className={styles.pagetablabel}>
                     <div className={styles.label}>Dashboard</div>
-                    <img className={styles.dropdownIcon} alt="" />
+                    <img className={styles.dropdownIcon} alt='' />
                   </div>
                   <div className={styles.activeindicator} />
                 </div>
@@ -71,8 +71,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>Training</div>
                     <img
                       className={styles.dropdownIcon}
-                      alt=""
-                      src="/dropdown2.svg"
+                      alt=''
+                      src='/dropdown2.svg'
                     />
                   </div>
                   <div className={styles.activeindicator} />
@@ -84,8 +84,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>Explore</div>
                     <img
                       className={styles.dropdownIcon}
-                      alt=""
-                      src="/dropdown2.svg"
+                      alt=''
+                      src='/dropdown2.svg'
                     />
                   </div>
                   <div className={styles.activeindicator} />
@@ -97,8 +97,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>Challenges</div>
                     <img
                       className={styles.dropdownIcon3}
-                      alt=""
-                      src="/dropdown2.svg"
+                      alt=''
+                      src='/dropdown2.svg'
                     />
                   </div>
                   <div className={styles.activeindicator} />
@@ -114,8 +114,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <b className={styles.label}>StravaFit</b>
                     <img
                       className={styles.dropdownIcon}
-                      alt=""
-                      src="/dropdown3.svg"
+                      alt=''
+                      src='/dropdown3.svg'
                     />
                   </div>
                   <div className={styles.activeindicator4} />
@@ -125,29 +125,29 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
           </div>
           <div className={styles.usermenu}>
             <div className={styles.notificationsnavitem}>
-              <img className={styles.bellIcon} alt="" src="/bell.svg" />
+              <img className={styles.bellIcon} alt='' src='/bell.svg' />
             </div>
             <div className={styles.profilenavitem}>
               <img
                 className={styles.userprofileimageIcon}
-                alt=""
-                src="/-userprofileimage1@2x.png"
+                alt=''
+                src='/-userprofileimage1@2x.png'
               />
               <img
                 className={styles.dropdownIcon}
-                alt=""
-                src="/dropdown4.svg"
+                alt=''
+                src='/dropdown4.svg'
               />
             </div>
             <div className={styles.notificationsnavitem}>
-              <img className={styles.searchIcon} alt="" src="/add.svg" />
+              <img className={styles.searchIcon} alt='' src='/add.svg' />
             </div>
             <div
               className={styles.menu}
               ref={menuContainerRef}
               onClick={openNavigationPopup}
             >
-              <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+              <img className={styles.vectorIcon} alt='' src='/vector.svg' />
             </div>
           </div>
         </div>
@@ -160,24 +160,24 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
               <div className={styles.filterItems}>
                 <button className={styles.activitytag}>
                   <div className={styles.run}>
-                    <img className={styles.runIcon} alt="" src="/run1.svg" />
+                    <img className={styles.runIcon} alt='' src='/run1.svg' />
                   </div>
                   <div className={styles.run1}>Run</div>
                 </button>
                 <button className={styles.activitytag1}>
-                  <img className={styles.rideIcon} alt="" src="/ride.svg" />
+                  <img className={styles.rideIcon} alt='' src='/ride.svg' />
                   <div className={styles.run1}>Ride</div>
                 </button>
                 <button className={styles.activitytag1}>
-                  <img className={styles.rideIcon} alt="" src="/strength.svg" />
+                  <img className={styles.rideIcon} alt='' src='/strength.svg' />
                   <div className={styles.run1}>Strength</div>
                 </button>
                 <button className={styles.activitytag}>
-                  <img className={styles.rideIcon} alt="" src="/yoga.svg" />
+                  <img className={styles.rideIcon} alt='' src='/yoga.svg' />
                   <div className={styles.run1}>Yoga</div>
                 </button>
                 <button className={styles.activitytag}>
-                  <img className={styles.rideIcon} alt="" src="/hiit.svg" />
+                  <img className={styles.rideIcon} alt='' src='/hiit.svg' />
                   <div className={styles.run1}>HIIT</div>
                 </button>
               </div>
@@ -190,8 +190,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 >
                   <img
                     className={styles.filterIcon}
-                    alt=""
-                    src="/filter1.svg"
+                    alt=''
+                    src='/filter1.svg'
                   />
                 </div>
               </div>
@@ -228,22 +228,22 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                   <div className={styles.activity}>
                     <img
                       className={styles.rideIcon}
-                      alt=""
-                      src="/strength.svg"
+                      alt=''
+                      src='/strength.svg'
                     />
                     <div className={styles.label}>Lunch Weight Training</div>
                   </div>
                   <div className={styles.activity}>
                     <div className={styles.run}>
-                      <img className={styles.runIcon} alt="" src="/run1.svg" />
+                      <img className={styles.runIcon} alt='' src='/run1.svg' />
                     </div>
                     <div className={styles.label}>Lunch Stair-Stepper</div>
                   </div>
                   <div className={styles.activity}>
                     <img
                       className={styles.rideIcon}
-                      alt=""
-                      src="/strength.svg"
+                      alt=''
+                      src='/strength.svg'
                     />
                     <div className={styles.label}>
                       Afternoon Weight Training
@@ -252,14 +252,14 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                   <div className={styles.activity}>
                     <img
                       className={styles.rideIcon}
-                      alt=""
-                      src="/strength.svg"
+                      alt=''
+                      src='/strength.svg'
                     />
                     <div className={styles.label}>Lunch Weight Training</div>
                   </div>
                   <div className={styles.activity}>
                     <div className={styles.run}>
-                      <img className={styles.runIcon} alt="" src="/run1.svg" />
+                      <img className={styles.runIcon} alt='' src='/run1.svg' />
                     </div>
                     <div className={styles.label}>Lunch Stair-Stepper</div>
                   </div>
@@ -270,7 +270,7 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 <div className={styles.readOurBlogContainer}>
                   <span>Read our blog</span>
                   <span className={styles.adventureStoriesTraining}>
-                    {" "}
+                    {' '}
                     – adventure stories, training tips and insights from the
                     community.
                   </span>
@@ -283,8 +283,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
               <div className={styles.logowithcopyright}>
                 <img
                   className={styles.stravaLogoIcon1}
-                  alt=""
-                  src="/stravalogo8.svg"
+                  alt=''
+                  src='/stravalogo8.svg'
                 />
                 <div className={styles.label}>© 2023 Strava</div>
               </div>
@@ -353,8 +353,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>{`English (US) `}</div>
                     <img
                       className={styles.dropdownIcon6}
-                      alt=""
-                      src="/dropdown10.svg"
+                      alt=''
+                      src='/dropdown10.svg'
                     />
                   </div>
                 </div>
@@ -365,8 +365,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
       </div>
       {isExpandedMenuComponentPopupOpen && (
         <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Bottom right"
+          overlayColor='rgba(113, 113, 113, 0.3)'
+          placement='Bottom right'
           relativeLayerRef={navLinksContainer4Ref}
           onOutsideClick={closeExpandedMenuComponentPopup}
         >
@@ -375,8 +375,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
       )}
       {isNavigationPopupOpen && (
         <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Bottom right"
+          overlayColor='rgba(113, 113, 113, 0.3)'
+          placement='Bottom right'
           relativeLayerRef={menuContainerRef}
           onOutsideClick={closeNavigationPopup}
         >
@@ -385,8 +385,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
       )}
       {isFilterDropdownComponentPopupOpen && (
         <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Bottom right"
+          overlayColor='rgba(113, 113, 113, 0.3)'
+          placement='Bottom right'
           relativeLayerRef={filterButtonContainerRef}
           onOutsideClick={closeFilterDropdownComponentPopup}
         >
@@ -396,7 +396,7 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
         </PortalPopup>
       )}
     </>
-  );
-};
+  )
+}
 
-export default InvalidSavedWorkoutPage;
+export default InvalidSavedWorkoutPage
