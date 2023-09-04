@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuzeit+Grotesk:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --p5: "Neuzeit Grotesk";
+
+  /* font sizes */
+  --p5-size: 15px;
+  --small-2-size: 10px;
+  --h4-size: 22px;
+  --small-1-size: 14px;
+  --p4-size: 16px;
+  --p3-emphasis-size: 17px;
+  --h3-size: 20px;
+  --h2-desktop-size: 48px;
+  --p2-emphasis-size: 18px;
+  --font-size-smi: 13px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --n0-white: #fff;
+  --orange-light: #e9602a;
+  --color-gainsboro-100: #e7e7eb;
+  --n40: #e1e2e3;
+  --color-gainsboro-200: #e2e1e1;
+  --color-gainsboro-300: #e5dfdf;
+  --n30-silver: #dfdfe8;
+  --n10-fog: #f7f7fa;
+  --n20-icicle: #f0f0f5;
+  --color-gray-100: #fefefe;
+  --n90-coal: #242428;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --n100-black: #000;
+  --n80-asphalt: #494950;
+  --n70-gravel: #6d6d78;
+  --n50: #b0b0b0;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-7xs: 6px;
+  --gap-lgi: 19px;
+  --gap-lg: 18px;
+  --gap-5xs: 8px;
+  --gap-smi: 13px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-61xl: 80px;
+  --gap-5xl: 24px;
+  --gap-xl: 20px;
+  --gap-2xs: 11px;
+  --gap-mini: 15px;
+  --gap-18xl: 37px;
+  --gap-11xl: 30px;
+  --gap-28xl: 47px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-11xs: 2px;
+  --padding-base-5: 15.5px;
+  --padding-base: 16px;
+  --padding-8xs: 5px;
+  --padding-8xs-5: 4.5px;
+  --padding-3xs: 10px;
+  --padding-lg: 18px;
+  --padding-smi-5: 12.5px;
+  --padding-13xl: 32px;
+  --padding-21xl: 40px;
+  --padding-5xs: 8px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-12xs: 1px;
+  --padding-69xl: 88px;
+  --padding-11xl: 30px;
+  --padding-31xl: 50px;
+  --padding-smi: 13px;
+  --padding-3xl: 22px;
+  --padding-sm: 14px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-mini: 15px;
+  --padding-51xl: 70px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+  --br-7xs: 6px;
+  --br-11xs: 2px;
+  --br-10xs: 3px;
+
+  /* Effects */
+  --drop-shadow-026: 0px 2px 6px rgba(53, 53, 53, 0.15);
+  --default: 1px 2px 6px rgba(0, 0, 0, 0.07);
+}
