@@ -48,11 +48,11 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
             <button className={styles.logoandsearch}>
               <img
                 className={styles.stravaLogoIcon}
-                alt=''
-                src='/stravalogo7.svg'
+                alt='logo'
+                src='/imgs/logo/logo_orange.svg'
               />
               <div className={styles.searchiconwrapper}>
-                <img className={styles.searchIcon} alt='' src='/search.svg' />
+                <img className={styles.searchIcon} alt='search' src='/imgs/icons/med/gray/search.svg' />
               </div>
             </button>
             <div className={styles.navlinks}>
@@ -60,7 +60,7 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 <div className={styles.pagetab}>
                   <div className={styles.pagetablabel}>
                     <div className={styles.label}>Dashboard</div>
-                    <img className={styles.dropdownIcon} alt='' />
+                    <img className={styles.dropdownIcon} alt='dropdown' src='/imgs/icons/sm/gray/dropdown.svg' />
                   </div>
                   <div className={styles.activeindicator} />
                 </div>
@@ -71,8 +71,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>Training</div>
                     <img
                       className={styles.dropdownIcon}
-                      alt=''
-                      src='/dropdown2.svg'
+                      alt='dropdown'
+                      src='/imgs/icons/sm/gray/dropdown.svg'
                     />
                   </div>
                   <div className={styles.activeindicator} />
@@ -84,8 +84,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>Explore</div>
                     <img
                       className={styles.dropdownIcon}
-                      alt=''
-                      src='/dropdown2.svg'
+                      alt='dropdown'
+                      src='/imgs/icons/sm/gray/dropdown.svg'
                     />
                   </div>
                   <div className={styles.activeindicator} />
@@ -95,11 +95,6 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 <div className={styles.pagetab}>
                   <div className={styles.pagetablabel}>
                     <div className={styles.label}>Challenges</div>
-                    <img
-                      className={styles.dropdownIcon3}
-                      alt=''
-                      src='/dropdown2.svg'
-                    />
                   </div>
                   <div className={styles.activeindicator} />
                 </div>
@@ -114,8 +109,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <b className={styles.label}>StravaFit</b>
                     <img
                       className={styles.dropdownIcon}
-                      alt=''
-                      src='/dropdown3.svg'
+                      alt='dropdown'
+                      src='/imgs/icons/sm/black/dropdown.svg'
                     />
                   </div>
                   <div className={styles.activeindicator4} />
@@ -125,29 +120,29 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
           </div>
           <div className={styles.usermenu}>
             <div className={styles.notificationsnavitem}>
-              <img className={styles.bellIcon} alt='' src='/bell.svg' />
+              <img className={styles.bellIcon} alt='notifications' src='imgs/icons/med/gray/bell.svg' />
             </div>
             <div className={styles.profilenavitem}>
               <img
                 className={styles.userprofileimageIcon}
-                alt=''
-                src='/-userprofileimage1@2x.png'
+                alt='profile picture'
+                src='/imgs/photos/user_profile_picture.png'
               />
               <img
                 className={styles.dropdownIcon}
-                alt=''
-                src='/dropdown4.svg'
+                alt='dropdown'
+                src='/imgs/icons/sm/black/dropdown.svg'
               />
             </div>
             <div className={styles.notificationsnavitem}>
-              <img className={styles.searchIcon} alt='' src='/add.svg' />
+              <img className={styles.searchIcon} alt='' src='/imgs/icons/med/orange/add.svg' />
             </div>
             <div
               className={styles.menu}
               ref={menuContainerRef}
               onClick={openNavigationPopup}
             >
-              <img className={styles.vectorIcon} alt='' src='/vector.svg' />
+              <img className={styles.vectorIcon} alt='menu' src='/imgs/icons/med/gray/hamburger.svg' />
             </div>
           </div>
         </div>
@@ -160,24 +155,24 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
               <div className={styles.filterItems}>
                 <button className={styles.activitytag}>
                   <div className={styles.run}>
-                    <img className={styles.runIcon} alt='' src='/run1.svg' />
+                    <img className={styles.runIcon} alt='' src='/imgs/icons/sm/black/run.svg' />
                   </div>
                   <div className={styles.run1}>Run</div>
                 </button>
                 <button className={styles.activitytag1}>
-                  <img className={styles.rideIcon} alt='' src='/ride.svg' />
+                  <img className={styles.rideIcon} alt='' src='/imgs/icons/sm/black/ride.svg' />
                   <div className={styles.run1}>Ride</div>
                 </button>
                 <button className={styles.activitytag1}>
-                  <img className={styles.rideIcon} alt='' src='/strength.svg' />
+                  <img className={styles.rideIcon} alt='' src='/imgs/icons/sm/black/weights.svg' />
                   <div className={styles.run1}>Strength</div>
                 </button>
                 <button className={styles.activitytag}>
-                  <img className={styles.rideIcon} alt='' src='/yoga.svg' />
+                  <img className={styles.rideIcon} alt='' src='/imgs/icons/sm/black/yoga.svg' />
                   <div className={styles.run1}>Yoga</div>
                 </button>
                 <button className={styles.activitytag}>
-                  <img className={styles.rideIcon} alt='' src='/hiit.svg' />
+                  <img className={styles.rideIcon} alt='' src='/imgs/icons/sm/black/hiit.svg' />
                   <div className={styles.run1}>HIIT</div>
                 </button>
               </div>
@@ -190,8 +185,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                 >
                   <img
                     className={styles.filterIcon}
-                    alt=''
-                    src='/filter1.svg'
+                    alt='filter'
+                    src='/imgs/icons/sm/black/filter.svg'
                   />
                 </div>
               </div>
@@ -229,13 +224,13 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <img
                       className={styles.rideIcon}
                       alt=''
-                      src='/strength.svg'
+                      src='/imgs/icons/sm/black/weights.svg'
                     />
                     <div className={styles.label}>Lunch Weight Training</div>
                   </div>
                   <div className={styles.activity}>
                     <div className={styles.run}>
-                      <img className={styles.runIcon} alt='' src='/run1.svg' />
+                      <img className={styles.runIcon} alt='' src='/imgs/icons/sm/black/run.svg' />
                     </div>
                     <div className={styles.label}>Lunch Stair-Stepper</div>
                   </div>
@@ -243,7 +238,7 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <img
                       className={styles.rideIcon}
                       alt=''
-                      src='/strength.svg'
+                      src='/imgs/icons/sm/black/weights.svg'
                     />
                     <div className={styles.label}>
                       Afternoon Weight Training
@@ -253,13 +248,13 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <img
                       className={styles.rideIcon}
                       alt=''
-                      src='/strength.svg'
+                      src='/imgs/icons/sm/black/weights.svg'
                     />
                     <div className={styles.label}>Lunch Weight Training</div>
                   </div>
                   <div className={styles.activity}>
                     <div className={styles.run}>
-                      <img className={styles.runIcon} alt='' src='/run1.svg' />
+                      <img className={styles.runIcon} alt='' src='/imgs/icons/sm/black/run.svg' />
                     </div>
                     <div className={styles.label}>Lunch Stair-Stepper</div>
                   </div>
@@ -283,8 +278,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
               <div className={styles.logowithcopyright}>
                 <img
                   className={styles.stravaLogoIcon1}
-                  alt=''
-                  src='/stravalogo8.svg'
+                  alt='logo'
+                  src='/imgs/logo/logo_gray.svg'
                 />
                 <div className={styles.label}>© 2023 Strava</div>
               </div>
@@ -353,8 +348,8 @@ const InvalidSavedWorkoutPage: FunctionComponent = () => {
                     <div className={styles.label}>{`English (US) `}</div>
                     <img
                       className={styles.dropdownIcon6}
-                      alt=''
-                      src='/dropdown10.svg'
+                      alt='dropdown'
+                      src='/imgs/icons/xs/dropdown.svg'
                     />
                   </div>
                 </div>

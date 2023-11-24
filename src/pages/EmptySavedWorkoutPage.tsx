@@ -87,11 +87,6 @@ const EmptySavedWorkoutPage: FunctionComponent = () => {
                 <div className={styles.pagetab}>
                   <div className={styles.pagetablabel}>
                     <div className={styles.label}>Challenges</div>
-                    <img
-                      className={styles.dropdownIcon3}
-                      alt='dropdown'
-                      src='/imgs/icons/sm/gray/dropdown.svg'
-                    />
                   </div>
                   <div className={styles.activeindicator} />
                 </div>
