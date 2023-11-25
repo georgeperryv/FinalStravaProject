@@ -27,8 +27,8 @@ const Navigation1: FunctionComponent<Navigation1Type> = ({ onClose }) => {
                 <div className={styles.allInstructors}>Athletes</div>
                 <img
                   className={styles.dropdownIcon}
-                  alt=""
-                  src="/dropdown.svg"
+                  alt="dropdown"
+                  src="/imgs/icons/sm/black/dropdown.svg"
                 />
               </div>
             </div>
@@ -36,8 +36,8 @@ const Navigation1: FunctionComponent<Navigation1Type> = ({ onClose }) => {
               <div className={styles.search}>Search</div>
               <img
                 className={styles.iconwrapper}
-                alt=""
-                src="/iconwrapper.svg"
+                alt="search"
+                src="/imgs/icons/med/gray/search.svg"
               />
             </div>
           </div>
@@ -161,8 +161,8 @@ const Navigation1: FunctionComponent<Navigation1Type> = ({ onClose }) => {
               <div className={styles.navlinkcontaineruser}>
                 <img
                   className={styles.userprofileimageIcon}
-                  alt=""
-                  src="/-userprofileimage@2x.png"
+                  alt="profile picture"
+                  src="/imgs/photos/user_profile_picture.png"
                 />
                 <b className={styles.allInstructors}>Britt Shook</b>
               </div>
@@ -189,13 +189,13 @@ const Navigation1: FunctionComponent<Navigation1Type> = ({ onClose }) => {
           <div className={styles.navbarcontainermobiletablet}>
             <img
               className={styles.stravaLogoIcon}
-              alt=""
-              src="/stravalogo.svg"
+              alt="logo"
+              src="/imgs/logo/logo_orange.svg"
             />
             <img
               className={styles.menuIcon}
-              alt=""
-              src="/menu.svg"
+              alt="close"
+              src="/imgs/icons/med/gray/close.svg"
               onClick={onClose}
             />
           </div>

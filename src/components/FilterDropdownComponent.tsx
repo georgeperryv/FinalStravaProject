@@ -76,19 +76,17 @@ const FilterDropdownComponent: FunctionComponent<
             <div className={styles.row1}>
               <button className={styles.activitytag}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run13.svg" />
                 </div>
                 <div className={styles.run1}>{`< 15 min`}</div>
               </button>
               <button className={styles.activitytag1}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run13.svg" />
+                  
                 </div>
                 <div className={styles.run1}>15 - 30 min</div>
               </button>
               <button className={styles.activitytag2}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run13.svg" />
                 </div>
                 <div className={styles.run1}>30 - 45 min</div>
               </button>
@@ -96,13 +94,11 @@ const FilterDropdownComponent: FunctionComponent<
             <div className={styles.row1}>
               <button className={styles.activitytag1}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run13.svg" />
                 </div>
                 <div className={styles.run1}>45 min - 1 hr</div>
               </button>
               <button className={styles.activitytag1}>
                 <div className={styles.run}>
-                  <img className={styles.runIcon} alt="" src="/run13.svg" />
                 </div>
                 <div className={styles.run1}>1 hr +</div>
               </button>
