@@ -50,11 +50,11 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
               <button className={styles.logoandsearch}>
                 <img
                   className={styles.stravaLogoIcon}
-                  alt=''
-                  src='/stravalogo2.svg'
+                  alt='logo'
+                  src='/imgs/logo/logo_orange.svg'
                 />
                 <div className={styles.searchiconwrapper}>
-                  <img className={styles.searchIcon} alt='' src='/search.svg' />
+                  <img className={styles.searchIcon} alt='search' src='/imgs/icons/med/gray/search.svg' />
                 </div>
               </button>
               <div className={styles.navlinks}>
@@ -62,7 +62,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                   <div className={styles.pagetab}>
                     <div className={styles.pagetablabel}>
                       <div className={styles.label}>Dashboard</div>
-                      <img className={styles.dropdownIcon} alt='' />
+                      <img className={styles.dropdownIcon} alt='dropdown' src='imgs/icons/sm/gray/dropdown.svg' />
                     </div>
                     <div className={styles.activeindicator} />
                   </div>
@@ -73,8 +73,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <div className={styles.label}>Training</div>
                       <img
                         className={styles.dropdownIcon}
-                        alt=''
-                        src='/dropdown2.svg'
+                        alt='dropdown'
+                        src='/imgs/icons/sm/gray/dropdown.svg'
                       />
                     </div>
                     <div className={styles.activeindicator} />
@@ -86,8 +86,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <div className={styles.label}>Explore</div>
                       <img
                         className={styles.dropdownIcon}
-                        alt=''
-                        src='/dropdown2.svg'
+                        alt='dropdown'
+                        src='/imgs/icons/sm/gray/dropdown.svg'
                       />
                     </div>
                     <div className={styles.activeindicator} />
@@ -97,11 +97,6 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                   <div className={styles.pagetab}>
                     <div className={styles.pagetablabel}>
                       <div className={styles.label}>Challenges</div>
-                      <img
-                        className={styles.dropdownIcon3}
-                        alt=''
-                        src='/dropdown2.svg'
-                      />
                     </div>
                     <div className={styles.activeindicator} />
                   </div>
@@ -116,8 +111,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <b className={styles.label}>StravaFit</b>
                       <img
                         className={styles.dropdownIcon}
-                        alt=''
-                        src='/dropdown3.svg'
+                        alt='dropdown'
+                        src='/imgs/icons/sm/black/dropdown.svg'
                       />
                     </div>
                     <div className={styles.activeindicator4} />
@@ -127,29 +122,29 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
             </div>
             <div className={styles.usermenu}>
               <div className={styles.notificationsnavitem}>
-                <img className={styles.bellIcon} alt='' src='/bell.svg' />
+                <img className={styles.bellIcon} alt='notifications' src='/imgs/icons/med/gray/bell.svg' />
               </div>
               <div className={styles.profilenavitem}>
                 <img
                   className={styles.userprofileimageIcon}
                   alt=''
-                  src='/-userprofileimage1@2x.png'
+                  src='/imgs/photos/user_profile_picture.png'
                 />
                 <img
                   className={styles.dropdownIcon}
-                  alt=''
-                  src='/dropdown4.svg'
+                  alt='dropdown'
+                  src='/imgs/icons/sm/black/dropdown.svg'
                 />
               </div>
               <div className={styles.notificationsnavitem}>
-                <img className={styles.searchIcon} alt='' src='/add.svg' />
+                <img className={styles.searchIcon} alt='add activity' src='/imgs/icons/med/orange/add.svg' />
               </div>
               <div
                 className={styles.menu}
                 ref={menuContainerRef}
                 onClick={openNavigationPopup}
               >
-                <img className={styles.vectorIcon} alt='' src='/vector.svg' />
+                <img className={styles.vectorIcon} alt='menu' src='/imgs/icons/med/gray/hamburger.svg' />
               </div>
             </div>
           </div>
@@ -158,13 +153,13 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
               <div className={styles.fullsizeimagecontainer}>
                 <img
                   className={styles.image15Icon}
-                  alt=''
-                  src='/image-15@2x.png'
+                  alt='Woman in wheel pose (backbend)'
+                  src='/imgs/photos/yoga/valentina_vinyasa.png'
                 />
                 <img
                   className={styles.playIcon}
-                  alt=''
-                  src='/play.svg'
+                  alt='play'
+                  src='/imgs/icons/xl/play.svg'
                   onClick={openModalWindowPopup}
                 />
               </div>
@@ -178,8 +173,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <div className={styles.statslarge}>
                         <img
                           className={styles.timeIcon}
-                          alt=''
-                          src='/time.svg'
+                          alt='time'
+                          src='/imgs/icons/med/black/time.svg'
                         />
                         <div className={styles.label}>20 min</div>
                       </div>
@@ -198,8 +193,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <button className={styles.primarybuttonswithicon}>
                         <img
                           className={styles.starfilledIcon}
-                          alt=''
-                          src='/starfilled1.svg'
+                          alt='saved'
+                          src='/imgs/icons/med/white/star_filled.svg'
                         />
                         <div className={styles.saved}>Save</div>
                       </button>
@@ -214,8 +209,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       </b>
                       <img
                         className={styles.strengthIcon}
-                        alt=''
-                        src='/dropdown5.svg'
+                        alt='dropdown'
+                        src='/imgs/icons/sm/black/dropdown.svg'
                       />
                     </div>
                     <div className={styles.textbox}>
@@ -230,8 +225,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                     <div className={styles.imageandheader}>
                       <img
                         className={styles.pexelsMartaWave64541591Icon}
-                        alt=''
-                        src='/pexelsmartawave6454159-1@2x.png'
+                        alt='profile picture of Valentina'
+                        src='/imgs/photos/valentina_profile_picture.png'
                       />
                       <b className={styles.yourInstructor}>your instructor</b>
                     </div>
@@ -244,7 +239,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                           <img
                             className={styles.workoutIcon}
                             alt=''
-                            src='/workout.svg'
+                            src='/imgs/icons/sm/black/workout.svg'
                           />
                           <div className={styles.label}>18 workouts</div>
                         </div>
@@ -272,7 +267,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <img
                         className={styles.strengthIcon}
                         alt=''
-                        src='/strength2.svg'
+                        src='/imgs/icons/sm/black/weights.svg'
                       />
                       <div className={styles.label}>Lunch Weight Training</div>
                     </div>
@@ -281,7 +276,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                         <img
                           className={styles.runIcon}
                           alt=''
-                          src='/run2.svg'
+                          src='/imgs/icons/sm/black/run.svg'
                         />
                       </div>
                       <div className={styles.label}>Lunch Stair-Stepper</div>
@@ -290,7 +285,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <img
                         className={styles.strengthIcon}
                         alt=''
-                        src='/strength2.svg'
+                        src='/imgs/icons/sm/black/weights.svg'
                       />
                       <div className={styles.label}>
                         Afternoon Weight Training
@@ -300,7 +295,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <img
                         className={styles.strengthIcon}
                         alt=''
-                        src='/strength2.svg'
+                        src='/imgs/icons/sm/black/weights.svg'
                       />
                       <div className={styles.label}>Lunch Weight Training</div>
                     </div>
@@ -309,7 +304,7 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                         <img
                           className={styles.runIcon}
                           alt=''
-                          src='/run2.svg'
+                          src='/imgs/icons/sm/black/run.svg'
                         />
                       </div>
                       <div className={styles.label}>Lunch Stair-Stepper</div>
@@ -334,8 +329,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                 <div className={styles.logowithcopyright}>
                   <img
                     className={styles.stravaLogoIcon1}
-                    alt=''
-                    src='/stravalogo3.svg'
+                    alt='logo'
+                    src='/imgs/logo/logo_gray.svg'
                   />
                   <div className={styles.label}>© 2023 Strava</div>
                 </div>
@@ -398,8 +393,8 @@ const WorkoutDetails: FunctionComponent<WorkoutDetailsType> = ({ onClose }) => {
                       <div className={styles.label}>{`English (US) `}</div>
                       <img
                         className={styles.dropdownIcon7}
-                        alt=''
-                        src='/dropdown6.svg'
+                        alt='dropdown'
+                        src='/imgs/icons/xs/dropdown.svg'
                       />
                     </div>
                   </div>
