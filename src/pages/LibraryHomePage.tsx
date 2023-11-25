@@ -451,7 +451,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt='Woman stretching on a yoga mat'
+                            alt='Woman doing a toe touch'
                             src='/imgs/photos/yoga/zoe_restorative.png'
                           />
                         </div>
@@ -1044,7 +1044,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='2 people running outdoors'
                             src='/imgs/photos/run/andre_recovery.png'
                           />
                         </div>
@@ -1091,7 +1091,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man running in the city'
                             src='/imgs/photos/run/marion_easy.png'
                           />
                         </div>
@@ -1152,7 +1152,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman running in the city'
                             src='/imgs/photos/run/tolu_long.png'
                           />
                         </div>
@@ -1200,7 +1200,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man running in the mountains'
                             src='/imgs/photos/run/tony_long.png'
                           />
                         </div>
@@ -1249,7 +1249,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man crossing the finish line'
                             src='/imgs/photos/run/samir_progressive.png'
                           />
                         </div>
@@ -1297,7 +1297,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman finishing a race'
                             src='/imgs/photos/run/vivian_progressive.png'
                           />
                         </div>
@@ -1345,7 +1345,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman crossing the finish line'
                             src='/imgs/photos/run/fredi_progressive.png'
                           />
                         </div>
@@ -1402,7 +1402,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man cycling on sand track'
                             src='/imgs/photos/cycle/nate_fartlek.png'
                           />
                         </div>
@@ -1449,7 +1449,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Men competing in a bike race'
                             src='/imgs/photos/cycle/greg_time_trial.png'
                           />
                         </div>
@@ -1496,7 +1496,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man road biking'
                             src='/imgs/photos/cycle/kendrick_interval.png'
                           />
                         </div>
@@ -1543,7 +1543,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='3 men road biking'
                             src='/imgs/photos/cycle/matt_hill.png'
                           />
                         </div>
@@ -1602,7 +1602,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='3 people road biking'
                             src='/imgs/photos/cycle/marion_easy.png'
                           />
                         </div>
@@ -1647,7 +1647,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man in a bike race'
                             src='/imgs/photos/cycle/sebastian_tempo.png'
                           />
                         </div>
@@ -1693,7 +1693,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man road biking'
                             src='/imgs/photos/cycle/joel_hill.png'
                           />
                         </div>
@@ -1739,7 +1739,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman road biking'
                             src='/imgs/photos/cycle/elana_endurance.png'
                           />
                         </div>
@@ -1802,7 +1802,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing glute bridges'
                             src='/imgs/photos/strength/sammie_glutes.png'
                           />
                         </div>
@@ -1848,7 +1848,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing crunches'
                             src='/imgs/photos/strength/marie_core_obliques.png'
                           />
                         </div>
@@ -1894,7 +1894,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman sitting on a workout mat smiling'
                             src='/imgs/photos/strength/gabriella_arms_abs.png'
                           />
                         </div>
@@ -1940,7 +1940,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing shoulder exercises'
                             src='/imgs/photos/strength/tiffany_shoulders_back.png'
                           />
                         </div>
@@ -1997,7 +1997,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing pushups on bleachers'
                             src='/imgs/photos/hiit/camille_quick.png'
                           />
                         </div>
@@ -2044,7 +2044,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man doing pushups'
                             src='/imgs/photos/hiit/terry_no_equip.png'
                           />
                         </div>
@@ -2090,7 +2090,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing lunges'
                             src='/imgs/photos/hiit/jenn_full_body.png'
                           />
                         </div>
@@ -2137,7 +2137,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='2 women side-planking'
                             src='/imgs/photos/hiit/janelle_quick.png'
                           />
                         </div>
@@ -2184,7 +2184,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing situps in the gym'
                             src='/imgs/photos/hiit/zoe_weighted.png'
                           />
                         </div>
@@ -2242,7 +2242,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in warrior 2 pose'
                             src='/imgs/photos/yoga/andrea_power.png'
                           />
                         </div>
@@ -2289,7 +2289,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing a low lunge pose'
                             src='/imgs/photos/yoga/michaela_vinyasa.png'
                           />
                         </div>
@@ -2336,7 +2336,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in half moon pose'
                             src='/imgs/photos/yoga/sammie_power.png'
                           />
                         </div>
@@ -2383,7 +2383,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in wheel pose (backbend)'
                             src='/imgs/photos/yoga/valentina_vinyasa.png'
                           />
                         </div>
@@ -2428,7 +2428,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in a plank pose'
                             src='/imgs/photos/yoga/minnie_power.png'
                           />
                         </div>
@@ -2487,7 +2487,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman doing a toe touch'
                             src='/imgs/photos/yoga/zoe_restorative.png'
                           />
                         </div>
@@ -2534,7 +2534,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Man in half moon pose'
                             src='/imgs/photos/yoga/christopher_restorative.png'
                           />
                         </div>
@@ -2580,7 +2580,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in kneeling pose'
                             src='/imgs/photos/yoga/minnie_yin.png'
                           />
                         </div>
@@ -2627,7 +2627,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in seated twist pose'
                             src='/imgs/photos/yoga/aubrey_restorative.png'
                           />
                         </div>
@@ -2674,7 +2674,7 @@ const LibraryHomePage: FunctionComponent = () => {
                         <div className={styles.workoutmediumrun}>
                           <img
                             className={styles.zainspeedIcon}
-                            alt=''
+                            alt='Woman in seated pose'
                             src='/imgs/photos/yoga/nicole_vinyasa.png'
                           />
                         </div>
